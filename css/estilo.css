@@ -1,0 +1,199 @@
+/* Formatação geral */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height: 100%;
+}
+/* Formatação geral */
+
+
+
+/* Card */
+
+.card
+{
+    width: 360px;
+    height: auto;
+    background: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.card #img-nft
+{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.card #conteudo-card h1
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card #conteudo-card p
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.card #infor-conteudo-card
+{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card #preco-nft
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+
+.card #preco-nft img
+{
+    margin-right: 8px;
+}
+
+.card #data-nft
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+
+.card #data-nft img
+{
+    margin-right: 8px;
+}
+
+.card #autor-card
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.card #autor-card img
+{
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+    margin-right: 15px;
+}
+
+.card #autor-card p
+{
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.card hr
+{
+    border: 1px solid hsl(215, 51%, 70%);
+}
+
+.card #autor-card a
+{
+    color: hsl(0, 0%, 100%);
+}
+
+
+/* Card */
+
+
+
+
+
+/* Media Querys */
+
+@media screen and (max-width: 600px) 
+{
+    .card 
+    {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .card #conteudo-card h1
+     {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .card #infor-conteudo-card 
+    {
+        padding: 15px 0px;
+    }
+
+    .card #conteudo-card p 
+    {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .card #preco-nft 
+    {
+        font-size: 16px;
+    }
+
+    .card #data-nft 
+    {
+        font-size: 16px;
+    }
+
+    .card #autor-card p 
+    {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 540px) {}
+@media screen and (max-width: 475px) {}
+@media screen and (max-width: 414px) {}
+@media screen and (max-width: 375px) {}
+@media screen and (max-width: 360px) 
+{
+    .card
+    {
+        margin: 0 10px;
+    }
+
+    .card #conteudo-card h1 
+    {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 320px) {}
+@media screen and (max-width: 280px) {}
