@@ -83,6 +83,12 @@ body
     font-weight: 500;
     padding-bottom: 12px;
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.card #conteudo-card h1:hover
+{
+    color: hsl(178, 100%, 50%);;
 }
 
 .card #conteudo-card p
@@ -163,6 +169,12 @@ body
 .card #autor-card a
 {
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.card #autor-card a:hover
+{
+    color: hsl(178, 100%, 50%);
 }
 
 
